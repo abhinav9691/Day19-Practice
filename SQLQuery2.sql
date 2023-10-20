@@ -1,7 +1,7 @@
 --UC1--
 create database Services;
 
---UC2-
+--UC2--
 use Services;
 create table Customer(Customer_Id int Identity(1,1),Customer_Name varchar(50),Phone bigint,Address varchar(200));
 select * from Customer;
